@@ -21,3 +21,5 @@ plot(x=powerr2$datetime, y=powerr2$Global_active_power,
      ylab='Global Active power (kilowatts)',
      xlab='  ',
      type = "l")
+dev.off()
+

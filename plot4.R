@@ -45,3 +45,5 @@ plot (x= powerr2$datetime, y = as.numeric(powerr2$Global_reactive_power),
       xlab ='datetime',
       #ylim = range(0,0.5),
       type = "l")
+
+dev.off()

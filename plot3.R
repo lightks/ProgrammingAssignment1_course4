@@ -26,3 +26,5 @@ plot(x=powerr2$datetime, y=powerr2$Sub_metering_1,
 legend("topright" , lty = 1, col = c("black","red","blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 lines(x= powerr2$datetime, y = powerr2$Sub_metering_2, col = "red")
 lines(x= powerr2$datetime, y = powerr2$Sub_metering_3, col = "blue")
+
+dev.off()
